@@ -14,7 +14,7 @@ import Seleniumlearning.TestComponents.BaseTest;
 public class Project2TestNG extends BaseTest{
 @Test(dataProvider="getData", groups= {"purchase"})
 	public void SubmitOrder(HashMap<String,String> input) throws IOException {
-//triggering for Cicd1 tets
+//triggering for Cicd1 tetsrsere
 
 		//String ProductName="Brocolli - 1 Kg";
 	    //launchapplicaton();	
